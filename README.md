@@ -14,6 +14,11 @@ DisplayQueryApp.java
 * The Client has limits commands (SELECT).
 
 ResultSetTableModel.java
+* This class was given to me, I had to manuplate a couple things.
+  * I had to create a seperate connection in the setQuery class as a root user and iterate the amount of querys that has been submitted from the client
+  * Along with the setUpdate class, I also had to create a separate connection as the root and iterate the amount of updates from the client
+  * It gets updated on a different datebase called the operations log and it basically just keeps track of the querys and updates.
+  * after the updates are made the connections are closed.
 * This class is what gets the result from the query that has been submitted by the user and creates a table to be sent back to the GUI.
 * There are two other things going on when a query has been submitted
   * after ever Update that the root user submits another connection gets created (as the root) and iterates a counter to keep track of how many updates has been made (this does not get sent to the GUI)
