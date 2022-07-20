@@ -8,7 +8,7 @@ MySQL database server, execute the statement and return the result to the client
 
 DisplayQueryApp.java
 * This class is what displays the Application, it is essentially the GUI
-* I did a bit of experimenting with using buttons, panels, labels and add different actions to the buttons.
+* I did a bit of experimenting with using buttons, panels, labels and added different actions to the buttons.
 * The GUI illustrates a login portion on the top left panel. You can login either as the root or the client, if the user credentials matches with the root or client properties files then itll allow access 
 * Top right panel is the command prompt for the user. They can enter SQL commands to be executed and it will present the result on the lower panel.
 * The Client has limits commands (SELECT).
