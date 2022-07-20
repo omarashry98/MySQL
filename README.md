@@ -11,7 +11,7 @@ DisplayQueryApp.java
 * I did a bit of experimenting with using buttons, panels, labels and added different actions to the buttons.
 * The GUI illustrates a login portion on the top left panel. You can login either as the root or the client, if the user credentials matches with the root or client properties files then itll allow access 
 * Top right panel is the command prompt for the user. They can enter SQL commands to be executed and it will present the result on the lower panel.
-* The Client has limits commands (SELECT).
+* The Client has limited commands (SELECT).
 
 ResultSetTableModel.java
 * This class was given to me, I had to manuplate a couple things.
